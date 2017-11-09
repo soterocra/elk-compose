@@ -2,7 +2,7 @@
 ELK orchestration using docker and docker-compose.
 
 **Setup**
-Just clone this repository and change [this line of code](https://github.com/waldemarnt/elk-compose/blob/master/docker-compose.yml#L29) to be
+Just clone this repository and change [this line of code](https://github.com/soterocra/elk-compose/blob/master/docker-compose.yml#L24) to be
 your log directory.
 
 The log syncronization is done by Filbeat and the configuration is allowed by the [configuration file](https://github.com/waldemarnt/elk-compose/blob/master/filebeat/filebeat.yml), 
